@@ -86,9 +86,13 @@ header {
 .drop-menu-content a:hover {background-color: #ddd}
 .show {display: block;}
 
+.menu-opcoes{
+  display: flex;
+  flex-direction: column;
+}
 .colors-list {
   font-size: 16px;
-  padding-left: 37px;
+  padding: 37px;
   color: #333333;
 }
 
@@ -96,12 +100,14 @@ header {
   font-size: 16px;
   padding-left: 37px;
   color: #333333;
+  padding: 37px;
 }
 
 .price-range {
   font-size: 16px;
   padding-left: 37px;
   color: #333333;
+  padding: 37px;
 }
 
 img.logo {
@@ -111,13 +117,13 @@ img.logo {
 .categories {
   margin-top: 20px;
   max-width: 1500px;
-  margin: 0 auto;
   /*centralize section*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 50px;
   flex-wrap: wrap;
   align-items: center;
+  padding: 70px 200px;
 }
 
 @media (max-width: 1000px) {
@@ -146,6 +152,7 @@ img.logo {
     min-width: 50%;
   }
 }
+
 button.carregar {
   background: #00C0EE;
   display: flex;
