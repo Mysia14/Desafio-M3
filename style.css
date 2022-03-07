@@ -121,11 +121,12 @@ img.logo {
 
 .categories {
   margin-top: 20px;
+  margin-bottom: 50px;
   max-width: 1900px;
   /*centralize section*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 80px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -153,6 +154,7 @@ img.logo {
   justify-content: center;
   align-items: center;
   padding: 37px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
@@ -167,17 +169,15 @@ button.comprar{
   font-style: normal;
   font-weight: bold;
   font-family: "Open sans";
-  line-height: 19px;
   border: none;
-  width: auto;
+  width:fit-content;
   display: grid;
+  margin:0 auto;
+  align-items: center;
+  padding: 10px 70px;
  
 }
 
-.center-button{
- 
-  height: fit-content;
-}
 .carregar {
   background: #00C0EE;
   margin:0 auto;
@@ -194,7 +194,6 @@ button.comprar{
   border: none;
   
 }
-
 
 footer {
   background-color: black;
